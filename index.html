@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    <title>Pizzaria</title>
+</head>
+<body>
+    <div class="topnav">
+    <a class="active" href="#">Pizzaria</a>
+    <div class="topnav-right">
+        <a href="#viewblock">View Menu</a>
+        <a href="#addToppings">Add Menu</a>
+    </div>
+    </div>
+
+    
+    <div class="newRow" id="addToppings">
+        <div class="block1">
+            <input id="add_item" placeholder="type here to add toppings"></br>
+            <button class="toppings" id="add_toppings" onclick="show()">show menu</button>
+            <button class="recomend" id="more_pizza?" onclick="recommend()">Recommend a new pizza?</button>
+        </div>
+    </div>
+
+    <div class="block2">
+       <div id="display_addedmenu">
+       </div>
+    </div>
+</body>
+</html>

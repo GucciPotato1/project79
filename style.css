@@ -1,0 +1,105 @@
+    body{
+        background-image: url("pizza.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .topnav {
+	overflow: hidden;
+	background-color: navajowhite;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #724e31;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .topnav a:hover {
+    background-color: rgb(70, 70, 70);
+    color: rgb(202, 172, 117);
+  }
+
+
+  .viewblock{
+    display:inline-block;
+    margin-bottom:2em;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+ .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+    text-align: center;
+  }
+  .block2{
+	float: left;
+	width: 80%;
+	padding: 5px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  #add_toppings{
+    width: 50px;
+	height: 50px;
+	border: none;
+	background-color:#e2062c;
+	color:black;
+	font-size: 15px;
+	font-family: cursive;
+    margin-top: 15px;
+  }
+
+  #add_item {
+	font-family: cursive;
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+	color: #ffffff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #dfcdcd;
+    outline: none;
+  }
+
+  .recomend{
+   	/* padding-left:30px; */
+	width:200px;
+	height:100px;
+	border: none;
+	background-color:#e2062c;
+	color:black;
+	font-size: 15px;
+	font-family: cursive;
+    margin-top: 15px;
+  }
+
+  #display_addedmenu{
+      color: peru;
+  }
